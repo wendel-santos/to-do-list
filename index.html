@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+<body>
+  <div class="todo">
+    <h1 class="todo-title">Todos</h1>
+    <form class="form-search">
+      <input class="input-search-todo inputs" type="text" name="search" placeholder="Procurar todo" autofill="false"/>
+    </form>
+
+    <div class="todo-list" id='todoList'></div>
+      
+    <input class="input-add-todo inputs" id="newItem" type="text" placeholder="Digite a sua tarefa" autocomplete="off" autofocus>
+  </div>
+  <button class="btn-add-todo" type="submit">Adicionar <i class="fas fa-plus-circle"></i></button>
+  <small class="small">Após digitar a tarefa, pressione Enter ou clique no botão para adicionar. <br> Desenvolvido por <a class="link" href="https://www.linkedin.com/in/wendel-santos-dev/e">Wendel Santos</a></small>
+
+  <script src="script.js"></script>
+</body>
+</html>
